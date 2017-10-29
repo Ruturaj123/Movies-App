@@ -13,6 +13,12 @@ public interface MovieInterface {
     @GET("movie/top_rated")
     Call<MovieDetails> getTopRatedMovies(@Query("api_key") String api_key);
 
+    @GET("movie/now_playing")
+    Call<MovieDetails> getNowPlayingMovies(@Query("api_key") String api_key);
+
+    @GET("movie/upcoming")
+    Call<MovieDetails> getUpcomingMovies(@Query("api_key") String api_key);
+
     @GET("movie/{id}")
     Call<MovieDetails> getSpecificMovie(@Path("id") int id, @Query("api_key") String api_key);
 }

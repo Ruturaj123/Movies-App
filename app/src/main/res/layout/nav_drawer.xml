@@ -9,6 +9,8 @@
     tools:openDrawer="start">
 
     <include layout="@layout/activity_main" />
+
+    <include layout="@layout/activity_now_playing" />
     
     <android.support.design.widget.NavigationView
         android:layout_width="wrap_content"

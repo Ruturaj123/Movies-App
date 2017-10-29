@@ -34,7 +34,8 @@
             android:name=".NavigationDrawer"
             android:label="@string/title_activity_navigation_drawer"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".NowPlaying"></activity>
+        <activity android:name=".NowPlaying" />
+        <activity android:name=".Upcoming"></activity>
     </application>
 
 </manifest>

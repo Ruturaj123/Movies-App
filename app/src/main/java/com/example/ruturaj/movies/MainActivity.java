@@ -1,7 +1,10 @@
 package com.example.ruturaj.movies;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -48,16 +51,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
+                Intent intent;
 
                 switch (id){
                     case R.id.menu_top_rated:
-                        Toast.makeText(getApplicationContext(), "Top rated", Toast.LENGTH_LONG).show();
                         break;
                     case R.id.menu_now_playing:
-                        Toast.makeText(getApplicationContext(), "Now Playing", Toast.LENGTH_LONG).show();
+                        intent = new Intent(getApplicationContext(), NowPlaying.class);
+                        startActivity(intent);
                         break;
                     case R.id.menu_upcoming:
-                        Toast.makeText(getApplicationContext(), "Upcoming", Toast.LENGTH_LONG).show();
+                        intent = new Intent(getApplicationContext(), Upcoming.class);
+                        startActivity(intent);
                         break;
                 }
                 drawerLayout.closeDrawer(GravityCompat.START);
@@ -83,6 +88,15 @@ public class MainActivity extends AppCompatActivity {
                 Log.e(TAG, t.toString());
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        if(drawerLayout.isDrawerOpen(GravityCompat.START)){
+            drawerLayout.closeDrawer(GravityCompat.START);
+            return;
+        }
+        super.onBackPressed();
     }
 
     @Override
