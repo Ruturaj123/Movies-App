@@ -41,8 +41,8 @@ public class TopRatedFragment extends Fragment {
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL);
         recyclerView.addItemDecoration(dividerItemDecoration);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-        MovieInterface movieInterface = Client.getClient().create(MovieInterface.class);
 
+        MovieInterface movieInterface = Client.getClient().create(MovieInterface.class);
         Call<MovieDetails> movieDetailsCall = movieInterface.getTopRatedMovies(api_key);
         movieDetailsCall.enqueue(new Callback<MovieDetails>() {
             @Override

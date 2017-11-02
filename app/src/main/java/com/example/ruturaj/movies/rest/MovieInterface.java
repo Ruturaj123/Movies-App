@@ -19,6 +19,6 @@ public interface MovieInterface {
     @GET("movie/upcoming")
     Call<MovieDetails> getUpcomingMovies(@Query("api_key") String api_key);
 
-    @GET("movie/{id}")
-    Call<MovieDetails> getSpecificMovie(@Path("id") int id, @Query("api_key") String api_key);
+    @GET("movie/{id}/videos")
+    Call<MovieDetails> getSpecificMovieVideo(@Path("id") int id, @Query("api_key") String api_key);
 }

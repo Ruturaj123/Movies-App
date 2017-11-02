@@ -17,6 +17,8 @@ public class MovieDetails {
     private int total_pages;
     @SerializedName("results")
     private List<Movies> results;
+    @SerializedName("key")
+    private String video_key;
 
     public int getPage(){
         return page;
@@ -48,5 +50,13 @@ public class MovieDetails {
 
     public void setResults(List<Movies> results){
         this.results = results;
+    }
+
+    public String getKey(){
+        return video_key;
+    }
+
+    public void setKey(String video_key){
+        this.video_key = video_key;
     }
 }
