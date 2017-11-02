@@ -17,7 +17,7 @@ These are top rated movies.
 This is the selected movie.
 
 
-![screenshot_20171102-102113](https://user-images.githubusercontent.com/25198226/32310974-13c43a74-bfbc-11e7-8e8f-4127c767fea3.png)
+![screenshot_20171102-222708](https://user-images.githubusercontent.com/25198226/32339427-bf1dc3de-c01d-11e7-8d40-4d00e3068187.png)
 
 
 This is the favorite movies list
@@ -29,7 +29,7 @@ This is the favorite movies list
 These are now playing movies.
 
 
-![screenshot_20171102-102141](https://user-images.githubusercontent.com/25198226/32310977-14403890-bfbc-11e7-83bf-3d4346c9f9a0.png)
+![screenshot_20171102-222736](https://user-images.githubusercontent.com/25198226/32339426-bedec7d8-c01d-11e7-8888-6c510b8070cc.png)
 
 
 These are upcoming movies.
