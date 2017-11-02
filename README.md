@@ -29,6 +29,7 @@ This is the favorite movies list
 These are now playing movies.
 
 
+![screenshot_20171102-102141](https://user-images.githubusercontent.com/25198226/32339704-9710188c-c01e-11e7-85e7-0241bdf08e07.png)
 ![screenshot_20171102-223542](https://user-images.githubusercontent.com/25198226/32339615-58dad714-c01e-11e7-91b1-fa4753469c6c.png)
 
 
