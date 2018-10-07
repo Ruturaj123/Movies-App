@@ -1,5 +1,8 @@
 # Movies-App
-This app gives information about the top rated movies, now playing movies and upcoming movies.
+## This app gives information about the 
+### Top rated movies, 
+### Now playing movies 
+### Upcoming movies.
 
 
 You can also save your favorite movie by tapping on the favorites fab. And then view the list of favorite movies by tapping on the favorites icon in the action bar.
