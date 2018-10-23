@@ -14,7 +14,7 @@ These are top rated movies.
 ![screenshot_20171101-201830](https://user-images.githubusercontent.com/25198226/32310972-132348e4-bfbc-11e7-8571-3de3b8cee3b4.png)
 
 
-This is the selected movie.
+This is the detailed view of the selected movie.
 
 
 ![screenshot_20171102-222708](https://user-images.githubusercontent.com/25198226/32339427-bf1dc3de-c01d-11e7-8d40-4d00e3068187.png)
